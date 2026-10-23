@@ -1,0 +1,23 @@
+{
+	"name": "ls_az_sql",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "dp700-fabric.database.windows.net",
+			"database": "free-sql-db-5378250",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "radhakrishna",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "ls_key_vault",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "azsqlpassword"
+			}
+		}
+	}
+}
