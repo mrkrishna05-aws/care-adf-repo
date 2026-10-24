@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-care1"
+		},
+		"ls_AzureDatabricks_properties_typeProperties_existingClusterId": {
+			"value": "1023-141733-ldqk95ej"
+		},
+		"ls_adls_care_properties_typeProperties_url": {
+			"value": "https://strgcicare.dfs.core.windows.net/"
+		},
+		"ls_az_sql_properties_typeProperties_server": {
+			"value": "dp700-fabric.database.windows.net"
+		},
+		"ls_az_sql_properties_typeProperties_database": {
+			"value": "free-sql-db-5378250"
+		},
+		"ls_az_sql_properties_typeProperties_userName": {
+			"value": "radhakrishna"
+		},
+		"ls_key_vault_properties_typeProperties_baseUrl": {
+			"value": "https://care-kv-1.vault.azure.net/"
+		},
+		"ls_postgres_properties_typeProperties_server": {
+			"value": "ep-lingering-smoke-a14wq8nd-pooler.ap-southeast-1.aws.neon.tech"
+		},
+		"ls_postgres_properties_typeProperties_database": {
+			"value": "neondb"
+		},
+		"ls_postgres_properties_typeProperties_username": {
+			"value": "neondb_owner"
+		}
+	}
+}
